@@ -2,7 +2,7 @@
 
 Bienvenue dans le projet "Typing Health" ! Ce projet vise à promouvoir le bien-être mental des développeurs informatiques grâce à un test de dactylographie innovant. Dans le contenu de ce fichier, vous trouverez toutes les informations nécessaires pour comprendre et utiliser ce projet.
 
-![Menu de l'interface Typing Health](./screens/menu.png | width=300)
+![Menu de l'interface Typing Health](screens/menu.png?raw=true | width=300)
 
 
 ## I. À propos du projet
