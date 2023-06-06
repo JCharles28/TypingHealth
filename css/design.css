@@ -15,7 +15,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(#007acc, #6dd5fa, #ffffff);
+  background: linear-gradient(#00395f, #6dd5fa, #9da897);
 }
 
 p.paragraph {
@@ -32,9 +32,9 @@ p.paragraph {
 .wrapper {
   width: 700px;
   padding: 30px;
-  background: #282626;
+  background: rgba(34, 51, 32, 0.831);
   border-radius: 40px;
-  box-shadow: 0 10px 15px rgba(30, 30, 30, 0.831);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.831);
 }
 
 .wrapper .input-field {
