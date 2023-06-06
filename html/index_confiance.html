@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Test</title>
+
+    <!-- lien CSS -->
+    <link rel="stylesheet" href="../css/design.css" />
+
+    <!-- lien Icon Font -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link
+      rel="icon"
+      href="../ressources/icon/typing-text.png"
+      sizes="16x16 32x32 64x64"
+      type="image/image libre droit
+    "
+    />
+    <!-- lien JavaScript -->
+    <script src="../javascript/script_confiance.js" defer></script>
+    <script src="../javascript/jquery.js" defer></script>
+  </head>
+
+  <body>
+    <div class="title">
+      <h1>Typing Test</h1>
+    </div>
+
+    <!-- FENETRE POP-UP -->
+    <div class="popup" id="popup">
+      <div class="popup-back"></div>
+      <div class="popup-container">
+        <div class="content-btn">
+          <button type="button" class="btn-fermer">
+            <!-- image croix -->
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <p class="popup-text"></p>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <input type="text" class="input-field" />
+
+      <div class="content-box">
+        <div class="typing-text">
+          <p class="paragraph"></p>
+        </div>
+
+        <div class="content">
+          <ul class="result-details">
+
+            <li class="time">
+              <p>Temps restant :</p>
+              <span><b>60</b>s</span>
+            </li>
+
+            <li class="erreur">
+              <p>Erreurs :</p>
+              <span>0</span>
+            </li>
+
+            <li class="wpm">
+              <p>WPM :</p>
+              <span>0</span>
+            </li>
+
+            <li class="cpm">
+              <p>CPM :</p>
+              <span>0</span>
+            </li>
+
+          </ul>
+
+          <button class="again">Nouvelle partie ?</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
