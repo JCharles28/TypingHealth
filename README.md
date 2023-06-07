@@ -14,6 +14,8 @@ Le projet "Typing Health" est conçu pour aider les développeurs en devenir à 
 
 3. **Gérer la pression sociale** : Ce niveau offre des ressources précieuses pour aider les développeurs à gérer la pression sociale souvent présente dans leur domaine. Il les encourage à maintenir un équilibre sain et à promouvoir le bien-être dans leur vie professionnelle.
 
+![](screens/menu2.png?raw=true)
+
 ## II. Comment utiliser le projet
 Pour profiter de ce projet, suivez les étapes ci-dessous :
 
