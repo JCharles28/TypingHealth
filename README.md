@@ -16,25 +16,12 @@ Le projet "Typing Health" est conçu pour aider les développeurs en devenir à 
 
 ![](screens/menu2.png?raw=true)
 
-## II. Comment utiliser le projet
-Pour profiter de ce projet, suivez les étapes ci-dessous :
-
-1. Téléchargez les fichiers du projet sur votre ordinateur.
-2. Ouvrez le fichier principal du projet (menu.html) dans votre navigateur web.
-3. Vous serez guidé à travers les différents niveaux. Lisez attentivement les textes avant de vous lancer le test (il se lance dès la première lettre saisie).
-4. Prenez votre temps pour réfléchir et écrire vos réponses lorsque cela vous est demandé.
-5. Explorez les différentes fonctionnalités interactives pour maximiser votre expérience.
-
-## III. Langages et technologies utilisés
+## II. Langages et technologies utilisés
 Ce projet a été développé en utilisant les langages et technologies suivants :
 
 - JavaScript : un langage de programmation utilisé pour la logique et les fonctionnalités interactives.
 - jQuery : une bibliothèque JavaScript qui facilite la manipulation des éléments HTML et les interactions utilisateur.
 - CSS : une technologie de style utilisée pour la mise en forme et l'apparence du projet.
 
-
 ![](screens/confiance.png?raw=true)
 
-
-## IV. Besoin d'aide ou de support ?
-Si vous avez des questions, des suggestions ou besoin d'aide pour utiliser ce projet, n'hésitez pas à me contacter. Je suis disponible pour vous assister et vous fournir toute l'aide dont vous avez besoin.
