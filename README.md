@@ -33,5 +33,9 @@ Ce projet a été développé en utilisant les langages et technologies suivants
 - jQuery : une bibliothèque JavaScript qui facilite la manipulation des éléments HTML et les interactions utilisateur.
 - CSS : une technologie de style utilisée pour la mise en forme et l'apparence du projet.
 
+
+![](screens/confiance.png?raw=true)
+
+
 ## IV. Besoin d'aide ou de support ?
 Si vous avez des questions, des suggestions ou besoin d'aide pour utiliser ce projet, n'hésitez pas à me contacter. Je suis disponible pour vous assister et vous fournir toute l'aide dont vous avez besoin.
