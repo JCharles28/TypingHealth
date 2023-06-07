@@ -19,9 +19,9 @@ Le projet "Typing Health" est conçu pour aider les développeurs en devenir à 
 ## II. Langages et technologies utilisés
 Ce projet a été développé en utilisant les langages et technologies suivants :
 
-- JavaScript : un langage de programmation utilisé pour la logique et les fonctionnalités interactives.
+- JavaScript : un langage de programmation utilisé pour les fonctionnalités complexes et l'animation du site.
 - jQuery : une bibliothèque JavaScript qui facilite la manipulation des éléments HTML et les interactions utilisateur.
-- CSS : une technologie de style utilisée pour la mise en forme et l'apparence du projet.
+- CSS : une technologie de style utilisée pour l'apparence du projet web.
 
 ![](screens/confiance.png?raw=true)
 
