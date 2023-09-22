@@ -187,6 +187,7 @@ h1 {
   justify-items: center;
   margin: 0 80px;
   font-size: 25px;
+  font-weight: 900;
 }
 
 .title:hover {
@@ -459,7 +460,7 @@ h2 {
     font-size: 65%;
   }
   .result-details li p {
-    font-size: 65%;
+    font-size: 52%;
   }
 
   button.again {
@@ -477,10 +478,10 @@ h2 {
   }
 
   .content-box span {
-    font-size: 55%;
+    font-size: 64%;
   }
   .result-details li p {
-    font-size: 60%;
+    font-size: 50%;
   }
 
   button.again {
@@ -507,10 +508,10 @@ h2 {
   }
 
   .content-box span {
-    font-size: 55%;
+    font-size: 64%;
   }
   .result-details li p {
-    font-size: 55%;
+    font-size: 48%;
   }
 
   button.again {
@@ -549,10 +550,10 @@ h2 {
   }
 
   .content-box span {
-    font-size: 50%;
+    font-size: 58%;
   }
   .result-details li p {
-    font-size: 55%;
+    font-size: 46%;
   }
 
   button.again {
@@ -578,10 +579,10 @@ h2 {
   }
 
   .content-box span {
-    font-size: 43%;
+    font-size: 52%;
   }
   .result-details li p {
-    font-size: 43%;
+    font-size: 44%;
   }
 
   button.again {
@@ -598,10 +599,10 @@ h2 {
     text-align: center;
   }
   .content-box span {
-    font-size: 40%;
+    font-size: 46%;
   }
   .result-details li p {
-    font-size: 40%;
+    font-size: 42%;
   }
 
   button.again {
