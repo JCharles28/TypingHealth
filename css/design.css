@@ -19,7 +19,7 @@ body {
 }
 
 p.paragraph {
-color: #fff;
+  color: #fff;
 }
 .result-details {
   color: #fff;
@@ -33,7 +33,7 @@ color: #fff;
   width: 700px;
   padding: 30px;
   background: rgba(51, 75, 48, 0.831);
-  border-radius:  0 36px;
+  border-radius: 0 36px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.831);
 }
 
@@ -153,85 +153,6 @@ li:not(:first-child) span {
   font-weight: 500;
 }
 
-/* RESPONSIVE */
-@media (max-width: 745px) {
-  .wrapper {
-    padding: 20px;
-    margin: 3px;
-  }
-  .content-box .content {
-    padding: 20px 0;
-  }
-  .content-box .typing-text {
-    max-height: 100%;
-  }
-  .typing-text p {
-    font-size: 19px;
-    text-align: left;
-  }
-  .content button {
-    width: 100%;
-    font-size: 15px;
-    padding: 10px 0;
-    margin-top: 20px;
-  }
-  .content .result-details {
-    width: 100%;
-  }
-  .result-details li:not(:first-child) {
-    border-left: 0;
-    padding: 0;
-  }
-  .result-details li p,
-  .result-details li span {
-    font-size: 15px;
-  }
-  .title h1 {
-    margin-left: 15px;
-  }
-
-  .loading {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-@media (max-width: 518px) {
-  .wrapper .content-box {
-    padding: 10px 15px 0;
-  }
-  .typing-text p {
-    font-size: 13px;
-  }
-  .result-details li {
-    margin-bottom: 10px;
-  }
-  .content button {
-    margin-top: 10px;
-  }
-  .title h1 {
-    margin-left: 5px;
-  }
-
-  .loading {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  button.commencer {
-    margin: 10px 0 0 0;
-  }
-}
-
 .erreur span:hover {
   font-size: 25px;
   transition: font-size 0.2s ease-in-out;
@@ -254,6 +175,10 @@ li:not(:first-child) span {
 
 h1 {
   font-family: "Raleway Dots", cursive;
+  font-size: 1.5em;
+  font-weight: 1500;
+  margin: 0 auto;
+  margin-top: 10%;
 }
 
 .title {
@@ -338,12 +263,7 @@ h1 {
   text-align: center;
 }
 
-
-
-
 /* --- MENU --- */
-
-
 
 .container {
   position: relative;
@@ -351,7 +271,7 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 100px 50px;
+  gap: 50px 50px;
   padding: 80px 40px;
 }
 
@@ -363,10 +283,11 @@ h1 {
   width: 325px;
   height: 275px;
   background: white;
-  border: 2.5px groove grey ;
+  border: 2.5px groove grey;
   border-radius: 20px;
   box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
   transition: 0.75s;
+  margin: 7% 0;
 }
 
 .container .niv:hover {
@@ -435,10 +356,10 @@ button.commencer {
 button.commencer:hover {
   background: #007acc;
   border: 3px solid #000;
-  color: #fff ;
+  color: #fff;
   text-shadow: 0 0 15px #fff;
   transition: background 0.5s ease-in;
-  animation: pump 1s ;
+  animation: pump 1s;
 }
 
 #confiance-titre:hover,
@@ -462,65 +383,6 @@ h2 {
 }
 
 /* -- LOADING -- */
-
-/* .lettre {
-}
-
-.text-acceuil {
-}
-
-.loading {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.lettre {
-  color: #484848;
-  font-size: 80px;
-  letter-spacing: 30px;
-  margin-bottom: 150px;
-  animation: flash 1.2s linear infinite;
-}
-
-.name {
-  color: #fff;
-  font-family: 'Inter', sans-serif;
-  animation: flash 2s infinite;
-  font-size: 40px;
-}
-
-.lettre:nth-child(1) {
-  animation-delay: 0.05s;
-}
-
-.lettre:nth-child(2) {
-  animation-delay: 0.1s;
-}
-
-.lettre:nth-child(3) {
-  animation-delay: 0.15s;
-}
-
-.lettre:nth-child(4) {
-  animation-delay: 0.2s;
-}
-
-.lettre:nth-child(5) {
-  animation-delay: 0.25s;
-}
-
-.lettre:nth-child(6) {
-  animation-delay: 0.3s;
-}
-
-.lettre:nth-child(7) {
-  animation-delay: 0.35s;
-} */
 
 /* KEYFRAMES */
 
@@ -582,5 +444,169 @@ h2 {
   100% {
     color: #ffffff;
     text-shadow: 0 0 7px #ffffff;
+  }
+}
+/* Existing CSS code above... */
+
+@media (max-width: 1200px) {
+
+  .wrapper {
+    width: 90%;
+    padding: 20px; 
+  }
+
+  .content-box span {
+    font-size: 65%;
+  }
+  .result-details li p {
+    font-size: 65%;
+  }
+
+  button.again {
+    font-size: 65%;
+    padding: 8px 0;
+    width: 50%;
+  }
+}
+
+@media (max-width: 820px) {
+  
+  .wrapper {
+    width: 80%; 
+    padding: 15px; 
+  }
+
+  .content-box span {
+    font-size: 55%;
+  }
+  .result-details li p {
+    font-size: 60%;
+  }
+
+  button.again {
+    font-size: 60%;
+    padding: 8px 0;
+    width: 45%;
+  }
+}
+
+@media (max-width: 745px) {
+  /* Adjustments for max-width: 745px */
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .niv {
+    width: 100%;
+  }
+  .image-niv {
+    width: 100%;
+  }
+  .content {
+    text-align: center;
+  }
+
+  .content-box span {
+    font-size: 55%;
+  }
+  .result-details li p {
+    font-size: 55%;
+  }
+
+  button.again {
+    font-size: 60%;
+    padding: 8px 0;
+    width: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  
+  .body-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .body-main h1 {
+    margin-bottom: 10%;
+  }
+  .body-main .container {
+    margin-top: 3%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  body h1 {
+    margin-bottom: 10%;
+  }
+
+  .wrapper {
+    padding: 5%; 
+  }
+
+  .paragraph {
+    font-size: 0.9em;
+  }
+
+  .content-box span {
+    font-size: 50%;
+  }
+  .result-details li p {
+    font-size: 55%;
+  }
+
+  button.again {
+    font-size: 53%;
+    padding: 8px 0;
+    width: 40%;
+  }
+}
+
+@media (max-width: 518px) {
+
+  .container {
+    padding: 20px; 
+  }
+  .niv .image-niv {
+    height: auto;
+  }
+  h2 {
+    font-size: 1rem; 
+  }
+  p {
+    font-size: 12px; 
+  }
+
+  .content-box span {
+    font-size: 43%;
+  }
+  .result-details li p {
+    font-size: 43%;
+  }
+
+  button.again {
+    font-size: 48%;
+    padding: 8px 0;
+    width: 38%;
+  }
+}
+
+@media (max-width: 376px) {
+
+  h1 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+  .content-box span {
+    font-size: 40%;
+  }
+  .result-details li p {
+    font-size: 40%;
+  }
+
+  button.again {
+    font-size: 43%;
+    padding: 8px 0;
+    width: 35%;
   }
 }
